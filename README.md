@@ -18,7 +18,7 @@ A consistent earthy color palette for all figures
 Final patchwork panel combining key plots
 ```
 📦 Required inputs
-
+```
 Place these TSV files at the repo root (or adjust the paths in the script):
 
 otu_table.tsv — rows = taxa/ASVs/OTUs, cols = samples, integer counts
@@ -34,9 +34,9 @@ Activity (low / medium / high)
 AgeGroup (four intervals such as 18–29, 30–44, 45–59, 60–80)
 
 Tip: keep real project data private; swap in synthetic/demo data with the same schema for public repos.
-
+```
 🔧 Software & packages
-
+```
 Tested with R ≥ 4.3.
 
 # CRAN
@@ -49,9 +49,9 @@ BiocManager::install(c("phyloseq","DESeq2","apeglm"))
 
 
 If DESeq2 installation complains about generics or other namespaces: restart R, update generics, broom (and friends), then reinstall DESeq2 with BiocManager. Keep R/Bioconductor versions current.
-
+```
 🚀 How to run
-
+```
 Clone the repo and open the R project / RStudio.
 
 Put otu_table.tsv, taxonomy.tsv, metadata.tsv at repo root (or change otu_path, tax_path, meta_path).
@@ -65,8 +65,9 @@ Knit the R Markdown (or source the chunks interactively).
 
 The Rmd currently contains setwd("C:/Users/ROSFRB/Desktop/Daf").
 For a portable repo, remove that line and rely on project working directory, or use here::here() for paths.
-
+```
 🗂️ Script overview (by section)
+```
 1) Palette (consistent across plots)
 
 Defines a reusable 15-color earthy palette + ggplot helper scales:
@@ -139,12 +140,10 @@ Output:
 
 figures/Combi.png
 
-
-
-(If you prefer, move TSVs into data/ and update paths in the script.)
+```
 
 ✅ Reproducibility tips
-
+```
 Set a seed early: set.seed(42)
 
 Consider initializing renv to pin package versions:
@@ -152,11 +151,10 @@ Consider initializing renv to pin package versions:
 install.packages("renv")
 renv::init()
 
-
-Avoid setwd() in shared repos; keep relative paths.
+```
 
 🧪 Troubleshooting
-
+```
 “cannot open the connection” → path is wrong. Check getwd() and file.exists("otu_table.tsv").
 
 tax_glom not found → load phyloseq (library(phyloseq)) or reinstall via BiocManager. Also ensure the taxonomy has a Species/Genus column to glom to.
@@ -166,29 +164,6 @@ DESeq2 install errors (generics cannot be unloaded, etc.) → Restart R, install
 Patchwork + heatmap: If you later use pheatmap, wrap it before combining:
 
 DEs_wrapped <- patchwork::wrap_elements(full = DEs_ph$gtable)
+```
 
-📚 Citations
 
-Please cite the tools you use:
-
-McMurdie & Holmes (2013) phyloseq. PLOS ONE.
-
-Love, Huber & Anders (2014) DESeq2. Genome Biology.
-
-Oksanen et al. vegan R package.
-
-Wickham ggplot2 R package.
-
-(See citation("phyloseq"), citation("DESeq2"), etc.)
-
-🔒 Data privacy
-
-This repo is structured to run with your TSVs while keeping all sensitive data out of the repo. Use synthetic TSVs for public demos if needed; only the schema must match.
-
-📝 License
-
-Choose a license (e.g., MIT) and add a LICENSE file.
-
-🙋 Support / questions
-
-Open an issue in the repo if you have questions or requests for enhancements (extra indices, UniFrac, heatmap of significant taxa, etc.).
