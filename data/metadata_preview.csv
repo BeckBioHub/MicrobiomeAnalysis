@@ -1,0 +1,11 @@
+SampleID,Diet,Activity,AgeGroup
+S001,Carnivore,low,45-59
+S002,Vegetarian,medium,18-29
+S003,Vegetarian,medium,18-29
+S004,Carnivore,medium,60-80
+S005,Vegan,high,45-59
+S006,Vegan,low,18-29
+S007,Vegan,medium,18-29
+S008,Vegetarian,medium,45-59
+S009,Carnivore,low,18-29
+S010,Vegetarian,low,18-29
