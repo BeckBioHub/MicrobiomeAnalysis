@@ -2,7 +2,7 @@
 A compact, reproducible R Markdown workflow for microbiome analysis using phyloseq, vegan, ggplot2, and DESeq2. Built for portfolio/demo purposes without exposing private data.
 
 📌 What this repo demonstrates
-
+```
 Build a phyloseq object from TSVs (OTU table, taxonomy, metadata)
 
 QC & filtering (depth + prevalence)
@@ -16,7 +16,7 @@ Differential abundance via DESeq2 with LFC shrinkage (apeglm)
 A consistent earthy color palette for all figures
 
 Final patchwork panel combining key plots
-
+```
 📦 Required inputs
 
 Place these TSV files at the repo root (or adjust the paths in the script):
