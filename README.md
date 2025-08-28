@@ -1,6 +1,13 @@
 # Microbiome Analysis - Workflow 
 A compact, reproducible R Markdown workflow for microbiome analysis using phyloseq, vegan, ggplot2, and DESeq2. Built for portfolio/demo purposes without exposing private data.
 
+
+<img width="4500" height="4500" alt="Combi" src="https://github.com/user-attachments/assets/e304e0f8-a4c1-44a7-bce8-42ff584e5fac" />
+
+
+
+
+
 📌 What this repo demonstrates
 ```
 Build a phyloseq object from TSVs (OTU table, taxonomy, metadata)
