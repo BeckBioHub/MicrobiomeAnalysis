@@ -1,8 +1,8 @@
 # Microbiome Analysis Workflow 
 A compact, reproducible R Markdown workflow for microbiome analysis using phyloseq, vegan, ggplot2, and DESeq2. Built for portfolio/demo purposes without exposing private data.
 
+<img width="6000" height="4500" alt="Combi" src="https://github.com/user-attachments/assets/1ff026be-b1be-437c-b677-36535f954e95" />
 
-<img width="3500" height="3500" alt="Combi" src="https://github.com/user-attachments/assets/e304e0f8-a4c1-44a7-bce8-42ff584e5fac" />
 
 # [Link: Microbiome Analysis](https://rpubs.com/BeckBioHub/1339198)
 
