@@ -22,7 +22,7 @@ A compact, reproducible R Markdown workflow for microbiome analysis using phylos
 
 - Final patchwork panel combining key plots
 ```
-📦 Required inputs
+📦 Required inputs (for reproducing repo output) - adjust parameters and names for own data
 ```
 Place these TSV files at the repo root (or adjust the paths in the script):
 
@@ -68,7 +68,7 @@ dir.create("figures", showWarnings = FALSE)
 
 Knit the R Markdown (or source the chunks interactively).
 
-The Rmd currently contains setwd("C:/Users/ROSFRB/Desktop/Daf").
+The Rmd currently contains setwd("C:/Users/x").
 For a portable repo, remove that line and rely on project working directory, or use here::here() for paths.
 ```
 🗂️ Script overview (by section)
