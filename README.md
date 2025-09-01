@@ -2,7 +2,7 @@
 A compact, reproducible R Markdown workflow for microbiome analysis using phyloseq, vegan, ggplot2, and DESeq2. Built for portfolio/demo purposes without exposing private data.
 
 
-<img width="4500" height="4500" alt="Combi" src="https://github.com/user-attachments/assets/e304e0f8-a4c1-44a7-bce8-42ff584e5fac" />
+<img width="3500" height="3500" alt="Combi" src="https://github.com/user-attachments/assets/e304e0f8-a4c1-44a7-bce8-42ff584e5fac" />
 
 # [Link: Microbiome Analysis](https://rpubs.com/BeckBioHub/1339198)
 
@@ -10,19 +10,17 @@ A compact, reproducible R Markdown workflow for microbiome analysis using phylos
 
 📌 What this repo demonstrates
 ```
-Build a phyloseq object from TSVs (OTU table, taxonomy, metadata)
+- Build a phyloseq object from TSVs (OTU table, taxonomy, metadata)
 
-QC & filtering (depth + prevalence)
+- QC & filtering (depth + prevalence)
 
-Alpha diversity (Observed, Shannon, Simpson) + stats & plots
+- Alpha diversity (Observed, Shannon, Simpson) + stats & plots
 
-Beta diversity (Bray–Curtis) + PCoA, ellipses, PERMANOVA, dispersion check
+- Beta diversity (Bray–Curtis) + PCoA, ellipses, PERMANOVA, dispersion check
 
-Differential abundance via DESeq2 with LFC shrinkage (apeglm)
+- Differential abundance analysis utilizing DESeq2 with LFC shrinkage (apeglm)
 
-A consistent earthy color palette for all figures
-
-Final patchwork panel combining key plots
+- Final patchwork panel combining key plots
 ```
 📦 Required inputs
 ```
