@@ -4,7 +4,7 @@ A compact, reproducible R Markdown workflow for microbiome analysis using phylos
 <img width="6000" height="4500" alt="Combi" src="https://github.com/user-attachments/assets/1ff026be-b1be-437c-b677-36535f954e95" />
 
 
-## [Link: Rmarkdown for Microbiome Analysis](https://rpubs.com/BeckBioHub/1339198)
+## [Link: Rpubs for Microbiome Analysis](https://rpubs.com/BeckBioHub/1339198)
 
 
 
