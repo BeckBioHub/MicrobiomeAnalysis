@@ -13,7 +13,7 @@ A compact, reproducible R Markdown workflow for microbiome analysis of different
 ```
 - Build a phyloseq object from TSVs (OTU table, taxonomy, metadata)
 
-- Rarefaction and plotting of sample counts 
+- rarefractioning and plotting of sample counts 
 
 - QC & filtering (depth + prevalence)
 
